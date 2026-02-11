@@ -140,9 +140,7 @@ body {
     flex-wrap: wrap;
     gap: 8px;
     margin-top: 6px;
-}
-
-.tag {
+}.tag {
     font-size: 12px;
     padding: 4px 10px;
     border-radius: 999px;
@@ -150,6 +148,23 @@ body {
     color: #4338ca;
     border: 1px solid #e0e7ff;
 }
+
+.tag-list2 {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 6px;
+}
+.tag2 {
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background-color: #4338ca;
+    color: #e0e7ff;
+    border: 1px solid #4338ca;
+}
+
 
 .footer {
     text-align: center;
